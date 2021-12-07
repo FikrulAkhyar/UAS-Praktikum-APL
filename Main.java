@@ -1,7 +1,7 @@
 
 /*** Class Main.
 * @author Fikrul Akhyar
-* @version 1.5
+* @version 1.6
 */
 
 import java.util.Scanner;
@@ -33,8 +33,8 @@ public class Main {
         System.out.print("Genre " + film.getFilmAction() + " adalah ");
         film.action();
 
-        FilmAction romanceAdapter = new AdapterPattern(yourName);
+        FilmAction karnivoraAdapter = new AdapterPattern(yourName);
         System.out.print("Genre " + film.getFilmAction() + " sekarang adalah ");
-        romanceAdapter.action();
+        karnivoraAdapter.action();
     }
 }
